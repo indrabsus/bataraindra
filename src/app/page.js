@@ -94,7 +94,7 @@ export default function SulingSundaPage() {
     
     {/* CARD 1 - Suling Dangdut */}
     <a 
-      href="https://www.tokopedia.com/batarasundamusik/1-set-suling-dangdut-nada-g-dan-c?extParam=src%3Dshop%26whid%3D3932952&aff_unique_id=&channel=others&chain_key="
+      href="https://www.tokopedia.com/batarasundamusik/1-set-suling-dangdut-nada-g-dan-c?extParam=src%3Dshop%26whid%3D3932952&aff_unique_id=&channel=others&chain_key=" target="_blank"
       className="bg-white shadow-lg rounded-2xl overflow-hidden hover:scale-[1.02] transition block"
     >
       <img
@@ -112,7 +112,7 @@ export default function SulingSundaPage() {
 
     {/* CARD 2 - Suling Doremi */}
     <a 
-      href="https://www.tokopedia.com/batarasundamusik/suling-bambu-doremi-diatonis-nada-g-dan-c?extParam=src%3Dshop%26whid%3D3932952&aff_unique_id=&channel=others&chain_key="
+      href="https://www.tokopedia.com/batarasundamusik/suling-bambu-doremi-diatonis-nada-g-dan-c?extParam=src%3Dshop%26whid%3D3932952&aff_unique_id=&channel=others&chain_key=" target="_blank"
       className="bg-white shadow-lg rounded-2xl overflow-hidden hover:scale-[1.02] transition block"
     >
       <img
@@ -130,7 +130,7 @@ export default function SulingSundaPage() {
 
     {/* CARD 3 - Kecapi */}
     <a 
-      href="https://www.tokopedia.com/batarasundamusik/kecapi-kawih-sunda-kualitas-terbaik?extParam=whid%3D3932952%26src%3Dshop&aff_unique_id=&channel=others&chain_key="
+      href="https://www.tokopedia.com/batarasundamusik/kecapi-kawih-sunda-kualitas-terbaik?extParam=whid%3D3932952%26src%3Dshop&aff_unique_id=&channel=others&chain_key=" target="_blank"
       className="bg-white shadow-lg rounded-2xl overflow-hidden hover:scale-[1.02] transition block"
     >
       <img
