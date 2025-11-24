@@ -6,7 +6,7 @@ export default function SulingSundaPage() {
       {/* HERO */}
       <section className="max-w-6xl mx-auto px-6 py-20 text-center">
         <h1 className="text-4xl font-bold text-amber-700 mb-4">
-          Suling Sunda 1 Set — Lubang 6 & Lubang 4
+          Suling Sunda Batara 1 Set — Lubang 6 & Lubang 4
         </h1>
         <p className="text-lg text-gray-600 mb-8">
           Suara merdu khas Sunda, cocok untuk latihan, pentas seni, dan koleksi.
