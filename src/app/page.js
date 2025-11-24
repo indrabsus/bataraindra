@@ -84,6 +84,59 @@ export default function SulingSundaPage() {
           </div>
         </div>
       </section>
+      {/* GALLERY SECTION */}
+<section className="max-w-6xl mx-auto px-6 py-20">
+  <h2 className="text-2xl font-bold text-amber-700 mb-8">
+    Galeri Alat Musik
+  </h2>
+
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+    {/* CARD 1 */}
+    <div className="bg-white shadow-lg rounded-2xl overflow-hidden">
+      <img
+        src="https://p16-images-sign-sg.tokopedia-static.net/tos-alisg-i-aphluv4xwc-sg/img/product-1/2015/8/12/183875/183875_e1d5d947-2fe9-4a1b-a63e-4fbeb5a621c9.jpg~tplv-aphluv4xwc-white-pad-v1:1600:1600.jpeg?lk3s=0ccea506&x-expires=1763961772&x-signature=K5R2lpRg2cQe3HErNYsc3iKQq8M%3D&x-signature-webp=YO9%2BpLrhNOeZop8cVnf8rjGGWR0%3D"
+        alt="Suling Dangdut"
+        className="w-full h-48 object-cover"
+      />
+      <div className="p-4">
+        <h3 className="text-xl font-semibold text-amber-700">Suling Dangdut</h3>
+        <p className="text-gray-600 mt-2">
+          Suling khas dangdut dengan suara melengking dan merdu.
+        </p>
+      </div>
+    </div>
+
+    {/* CARD 2 */}
+    <div className="bg-white shadow-lg rounded-2xl overflow-hidden">
+      <img
+        src="https://p16-images-sign-sg.tokopedia-static.net/tos-alisg-i-aphluv4xwc-sg/img/product-1/2017/6/4/919382/919382_53b59863-0185-4cf7-adde-efdebf0c9faa_1477_1108.jpg~tplv-aphluv4xwc-white-pad-v1:1600:1600.jpeg?lk3s=0ccea506&x-expires=1763961716&x-signature=IlOc5HgZInAjuPxMnaOJ0Xv9kBw%3D&x-signature-webp=S0s0BBDyuHzfvKfHdoMYC0nzSWc%3D"
+        alt="Suling Doremi"
+        className="w-full h-48 object-cover"
+      />
+      <div className="p-4">
+        <h3 className="text-xl font-semibold text-amber-700">Suling Doremi</h3>
+        <p className="text-gray-600 mt-2">
+          Cocok untuk belajar nada dasar dan latihan pemula.
+        </p>
+      </div>
+    </div>
+
+    {/* CARD 3 */}
+    <div className="bg-white shadow-lg rounded-2xl overflow-hidden">
+      <img
+        src="https://p16-images-sign-sg.tokopedia-static.net/tos-alisg-i-aphluv4xwc-sg/img/product-1/2015/11/9/183875/183875_f6c570ac-6c2c-4ff9-bc32-867b770ebbe4.jpg~tplv-aphluv4xwc-white-pad-v1:1600:1600.jpeg?lk3s=0ccea506&x-expires=1763961861&x-signature=VaOXnpNNIsI7lOBXJX79TkGWWNA%3D&x-signature-webp=LhHUthBSQQpZ6oP7mgosJHDGXaA%3D"
+        alt="Kecapi"
+        className="w-full h-48 object-cover"
+      />
+      <div className="p-4">
+        <h3 className="text-xl font-semibold text-amber-700">Kecapi</h3>
+        <p className="text-gray-600 mt-2">
+          Alat musik tradisional Sunda dengan suara lembut dan menenangkan.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
       <footer className="text-center py-10 text-gray-500">
         © 2025 Suling Sunda Store
