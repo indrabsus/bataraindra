@@ -5,44 +5,62 @@ export default function SulingSundaPage() {
     <main className="min-h-screen bg-gradient-to-b from-amber-50 to-white text-gray-800">
       {/* HERO */}
       <section className="max-w-6xl mx-auto px-6 py-20 text-center">
-        <h1 className="text-4xl font-bold text-amber-700 mb-4">
-          Suling Sunda Batara 1 Set — Lubang 6 & Lubang 4
-        </h1>
-        <p className="text-lg text-gray-600 mb-8">
-          Suara merdu khas Sunda, cocok untuk latihan, pentas seni, dan koleksi.
-        </p>
+  <h1 className="text-4xl font-bold text-amber-700 mb-4">
+    Suling Sunda Batara 1 Set — Lubang 6 & Lubang 4
+  </h1>
+  <p className="text-lg text-gray-600 mb-8">
+    Suara merdu khas Sunda, cocok untuk latihan, pentas seni, dan koleksi.
+  </p>
 
-        <div className="flex justify-center">
-          <img
-  src="https://p19-images-sign-sg.tokopedia-static.net/tos-alisg-i-aphluv4xwc-sg/img/VqbcmM/2021/6/5/149cc711-62b1-4ea6-97dd-1a6604eaeb17.png~tplv-aphluv4xwc-white-pad-v1:1600:1600.jpeg?lk3s=0ccea506&x-expires=1763958228&x-signature=UhfOU7EilcQ84aG71ZPDO%2B6LkYg%3D&x-signature-webp=Yur3iVH7GphwDaZoUUEfUpONf3A%3D"
-  alt="Suling Sunda"
-  className="rounded-xl shadow-lg w-[600px] h-[300px] object-cover"
-/>
-        </div>
+  {/* VIDEO YOUTUBE */}
+  <div className="flex justify-center mb-8">
+    <iframe
+      width="600"
+      height="338"
+      src="https://www.youtube.com/embed/wehAKqHUlGg"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowFullScreen
+      className="rounded-xl shadow-lg"
+    ></iframe>
+  </div>
 
-       <p className="text-3xl font-semibold text-amber-700 mt-8">
-  Rp 180.000
-</p>
+  {/* IMAGE */}
+  <div className="flex justify-center">
+    <Image
+      src="/suling-sunda.jpeg"
+      width={600}
+      height={300}
+      alt="Suling Sunda"
+      className="rounded-xl shadow-lg w-[600px] h-[300px] object-cover"
+    />
+  </div>
 
-<div className="flex flex-col items-center gap-4 mt-6">
-  {/* ORDER WA */}
-  <a
-    href="https://wa.me/6281380837591?text=Halo%2C+saya+mau+order+Suling+Sunda+1+set" target="_blank"
-    className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-3 rounded-full text-lg transition inline-block"
-  >
-    Order via WhatsApp
-  </a>
+  <p className="text-3xl font-semibold text-amber-700 mt-8">
+    Rp 180.000
+  </p>
 
-  {/* ORDER TOKOPEDIA */}
-  <a
-    href="https://www.tokopedia.com/batarasundamusik/jual-suling-sunda-kualitas-oke-dari-bambu-pilihan?extParam=src%3Dshop%26whid%3D3932952&aff_unique_id=&channel=others&chain_key=" 
-    target="_blank"
-    className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full text-lg transition inline-block"
-  >
-    Order via Tokopedia
-  </a>
-</div>
-      </section>
+  <div className="flex flex-col items-center gap-4 mt-6">
+    {/* ORDER WA */}
+    <a 
+      href="https://wa.me/6281380837591?text=Halo%2C+saya+mau+order+Suling+Sunda+1+set"
+      target="_blank"
+      className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-3 rounded-full text-lg transition inline-block"
+    >
+      Order via WhatsApp
+    </a>
+
+    {/* ORDER TOKOPEDIA */}
+    <a
+      href="https://www.tokopedia.com/batarasundamusik/jual-suling-sunda-kualitas-oke-dari-bambu-pilihan?extParam=src%3Dshop%26whid%3D3932952&aff_unique_id=&channel=others&chain_key="
+      target="_blank"
+      className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full text-lg transition inline-block"
+    >
+      Order via Tokopedia
+    </a>
+  </div>
+</section>
 
       {/* DESCRIPTION */}
       <section className="max-w-5xl mx-auto px-6 py-16">
@@ -97,8 +115,10 @@ export default function SulingSundaPage() {
       href="https://www.tokopedia.com/batarasundamusik/1-set-suling-dangdut-nada-g-dan-c?extParam=src%3Dshop%26whid%3D3932952&aff_unique_id=&channel=others&chain_key=" target="_blank"
       className="bg-white shadow-lg rounded-2xl overflow-hidden hover:scale-[1.02] transition block"
     >
-      <img
-        src="https://p16-images-sign-sg.tokopedia-static.net/tos-alisg-i-aphluv4xwc-sg/img/product-1/2015/8/12/183875/183875_e1d5d947-2fe9-4a1b-a63e-4fbeb5a621c9.jpg~tplv-aphluv4xwc-white-pad-v1:1600:1600.jpeg?lk3s=0ccea506&x-expires=1763961772&x-signature=K5R2lpRg2cQe3HErNYsc3iKQq8M%3D&x-signature-webp=YO9%2BpLrhNOeZop8cVnf8rjGGWR0%3D"
+      <Image
+        src="/suling-dangdut.jpeg"
+        width={600}
+        height={300}
         alt="Suling Dangdut"
         className="w-full h-48 object-cover"
       />
@@ -115,9 +135,11 @@ export default function SulingSundaPage() {
       href="https://www.tokopedia.com/batarasundamusik/suling-bambu-doremi-diatonis-nada-g-dan-c?extParam=src%3Dshop%26whid%3D3932952&aff_unique_id=&channel=others&chain_key=" target="_blank"
       className="bg-white shadow-lg rounded-2xl overflow-hidden hover:scale-[1.02] transition block"
     >
-      <img
-        src="https://p16-images-sign-sg.tokopedia-static.net/tos-alisg-i-aphluv4xwc-sg/img/product-1/2017/6/4/919382/919382_53b59863-0185-4cf7-adde-efdebf0c9faa_1477_1108.jpg~tplv-aphluv4xwc-white-pad-v1:1600:1600.jpeg?lk3s=0ccea506&x-expires=1763961716&x-signature=IlOc5HgZInAjuPxMnaOJ0Xv9kBw%3D&x-signature-webp=S0s0BBDyuHzfvKfHdoMYC0nzSWc%3D"
-        alt="Suling Doremi"
+      <Image
+        src="/suling-doremi.jpeg"
+          width={600}
+          height={300}
+  alt="Suling Doremi"
         className="w-full h-48 object-cover"
       />
       <div className="p-4">
@@ -133,9 +155,11 @@ export default function SulingSundaPage() {
       href="https://www.tokopedia.com/batarasundamusik/kecapi-kawih-sunda-kualitas-terbaik?extParam=whid%3D3932952%26src%3Dshop&aff_unique_id=&channel=others&chain_key=" target="_blank"
       className="bg-white shadow-lg rounded-2xl overflow-hidden hover:scale-[1.02] transition block"
     >
-      <img
-        src="https://p16-images-sign-sg.tokopedia-static.net/tos-alisg-i-aphluv4xwc-sg/img/product-1/2015/11/9/183875/183875_f6c570ac-6c2c-4ff9-bc32-867b770ebbe4.jpg~tplv-aphluv4xwc-white-pad-v1:1600:1600.jpeg?lk3s=0ccea506&x-expires=1763961861&x-signature=VaOXnpNNIsI7lOBXJX79TkGWWNA%3D&x-signature-webp=LhHUthBSQQpZ6oP7mgosJHDGXaA%3D"
-        alt="Kecapi"
+      <Image
+        src="/kecapi.jpeg"
+        width={600}
+        height={300}
+  alt="Kecapi"
         className="w-full h-48 object-cover"
       />
       <div className="p-4">
@@ -150,7 +174,7 @@ export default function SulingSundaPage() {
 </section>
 
       <footer className="text-center py-10 text-gray-500">
-        © 2025 Suling Sunda Store
+        © 2025 Suling Sunda Batara. All rights reserved.
       </footer>
     </main>
   );
